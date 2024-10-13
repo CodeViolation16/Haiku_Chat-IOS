@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E22238982CBC9303001E137C /* Haiku_ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22238972CBC9303001E137C /* Haiku_ChatApp.swift */; };
+		E222389A2CBC9303001E137C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22238992CBC9303001E137C /* ContentView.swift */; };
+		E222389C2CBC9304001E137C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E222389B2CBC9304001E137C /* Assets.xcassets */; };
+		E222389F2CBC9304001E137C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E222389E2CBC9304001E137C /* Preview Assets.xcassets */; };
+		E22238A92CBC9304001E137C /* Haiku_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22238A82CBC9304001E137C /* Haiku_ChatTests.swift */; };
+		E22238B32CBC9304001E137C /* Haiku_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22238B22CBC9304001E137C /* Haiku_ChatUITests.swift */; };
+		E22238B52CBC9304001E137C /* Haiku_ChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22238B42CBC9304001E137C /* Haiku_ChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E22238A52CBC9304001E137C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E222388C2CBC9303001E137C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E22238932CBC9303001E137C;
+			remoteInfo = Haiku_Chat;
+		};
+		E22238AF2CBC9304001E137C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E222388C2CBC9303001E137C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E22238932CBC9303001E137C;
+			remoteInfo = Haiku_Chat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E22238942CBC9303001E137C /* Haiku_Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haiku_Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22238972CBC9303001E137C /* Haiku_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haiku_ChatApp.swift; sourceTree = "<group>"; };
+		E22238992CBC9303001E137C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E222389B2CBC9304001E137C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E222389E2CBC9304001E137C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E22238A42CBC9304001E137C /* Haiku_ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Haiku_ChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22238A82CBC9304001E137C /* Haiku_ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haiku_ChatTests.swift; sourceTree = "<group>"; };
+		E22238AE2CBC9304001E137C /* Haiku_ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Haiku_ChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22238B22CBC9304001E137C /* Haiku_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haiku_ChatUITests.swift; sourceTree = "<group>"; };
+		E22238B42CBC9304001E137C /* Haiku_ChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haiku_ChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E22238912CBC9303001E137C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22238A12CBC9304001E137C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22238AB2CBC9304001E137C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E222388B2CBC9303001E137C = {
+			isa = PBXGroup;
+			children = (
+				E22238962CBC9303001E137C /* Haiku_Chat */,
+				E22238A72CBC9304001E137C /* Haiku_ChatTests */,
+				E22238B12CBC9304001E137C /* Haiku_ChatUITests */,
+				E22238952CBC9303001E137C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E22238952CBC9303001E137C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E22238942CBC9303001E137C /* Haiku_Chat.app */,
+				E22238A42CBC9304001E137C /* Haiku_ChatTests.xctest */,
+				E22238AE2CBC9304001E137C /* Haiku_ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E22238962CBC9303001E137C /* Haiku_Chat */ = {
+			isa = PBXGroup;
+			children = (
+				E22238972CBC9303001E137C /* Haiku_ChatApp.swift */,
+				E22238992CBC9303001E137C /* ContentView.swift */,
+				E222389B2CBC9304001E137C /* Assets.xcassets */,
+				E222389D2CBC9304001E137C /* Preview Content */,
+			);
+			path = Haiku_Chat;
+			sourceTree = "<group>";
+		};
+		E222389D2CBC9304001E137C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E222389E2CBC9304001E137C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E22238A72CBC9304001E137C /* Haiku_ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E22238A82CBC9304001E137C /* Haiku_ChatTests.swift */,
+			);
+			path = Haiku_ChatTests;
+			sourceTree = "<group>";
+		};
+		E22238B12CBC9304001E137C /* Haiku_ChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E22238B22CBC9304001E137C /* Haiku_ChatUITests.swift */,
+				E22238B42CBC9304001E137C /* Haiku_ChatUITestsLaunchTests.swift */,
+			);
+			path = Haiku_ChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E22238932CBC9303001E137C /* Haiku_Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22238B82CBC9304001E137C /* Build configuration list for PBXNativeTarget "Haiku_Chat" */;
+			buildPhases = (
+				E22238902CBC9303001E137C /* Sources */,
+				E22238912CBC9303001E137C /* Frameworks */,
+				E22238922CBC9303001E137C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haiku_Chat;
+			productName = Haiku_Chat;
+			productReference = E22238942CBC9303001E137C /* Haiku_Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E22238A32CBC9304001E137C /* Haiku_ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22238BB2CBC9304001E137C /* Build configuration list for PBXNativeTarget "Haiku_ChatTests" */;
+			buildPhases = (
+				E22238A02CBC9304001E137C /* Sources */,
+				E22238A12CBC9304001E137C /* Frameworks */,
+				E22238A22CBC9304001E137C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E22238A62CBC9304001E137C /* PBXTargetDependency */,
+			);
+			name = Haiku_ChatTests;
+			productName = Haiku_ChatTests;
+			productReference = E22238A42CBC9304001E137C /* Haiku_ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E22238AD2CBC9304001E137C /* Haiku_ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22238BE2CBC9304001E137C /* Build configuration list for PBXNativeTarget "Haiku_ChatUITests" */;
+			buildPhases = (
+				E22238AA2CBC9304001E137C /* Sources */,
+				E22238AB2CBC9304001E137C /* Frameworks */,
+				E22238AC2CBC9304001E137C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E22238B02CBC9304001E137C /* PBXTargetDependency */,
+			);
+			name = Haiku_ChatUITests;
+			productName = Haiku_ChatUITests;
+			productReference = E22238AE2CBC9304001E137C /* Haiku_ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E222388C2CBC9303001E137C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E22238932CBC9303001E137C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E22238A32CBC9304001E137C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E22238932CBC9303001E137C;
+					};
+					E22238AD2CBC9304001E137C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E22238932CBC9303001E137C;
+					};
+				};
+			};
+			buildConfigurationList = E222388F2CBC9303001E137C /* Build configuration list for PBXProject "Haiku_Chat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E222388B2CBC9303001E137C;
+			productRefGroup = E22238952CBC9303001E137C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E22238932CBC9303001E137C /* Haiku_Chat */,
+				E22238A32CBC9304001E137C /* Haiku_ChatTests */,
+				E22238AD2CBC9304001E137C /* Haiku_ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E22238922CBC9303001E137C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E222389F2CBC9304001E137C /* Preview Assets.xcassets in Resources */,
+				E222389C2CBC9304001E137C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22238A22CBC9304001E137C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22238AC2CBC9304001E137C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E22238902CBC9303001E137C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E222389A2CBC9303001E137C /* ContentView.swift in Sources */,
+				E22238982CBC9303001E137C /* Haiku_ChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22238A02CBC9304001E137C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22238A92CBC9304001E137C /* Haiku_ChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22238AA2CBC9304001E137C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22238B32CBC9304001E137C /* Haiku_ChatUITests.swift in Sources */,
+				E22238B52CBC9304001E137C /* Haiku_ChatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E22238A62CBC9304001E137C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E22238932CBC9303001E137C /* Haiku_Chat */;
+			targetProxy = E22238A52CBC9304001E137C /* PBXContainerItemProxy */;
+		};
+		E22238B02CBC9304001E137C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E22238932CBC9303001E137C /* Haiku_Chat */;
+			targetProxy = E22238AF2CBC9304001E137C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E22238B62CBC9304001E137C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E22238B72CBC9304001E137C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E22238B92CBC9304001E137C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Haiku_Chat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khanh.Haiku-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E22238BA2CBC9304001E137C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Haiku_Chat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khanh.Haiku-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E22238BC2CBC9304001E137C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khanh.Haiku-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haiku_Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Haiku_Chat";
+			};
+			name = Debug;
+		};
+		E22238BD2CBC9304001E137C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khanh.Haiku-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haiku_Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Haiku_Chat";
+			};
+			name = Release;
+		};
+		E22238BF2CBC9304001E137C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khanh.Haiku-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Haiku_Chat;
+			};
+			name = Debug;
+		};
+		E22238C02CBC9304001E137C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khanh.Haiku-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Haiku_Chat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E222388F2CBC9303001E137C /* Build configuration list for PBXProject "Haiku_Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22238B62CBC9304001E137C /* Debug */,
+				E22238B72CBC9304001E137C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22238B82CBC9304001E137C /* Build configuration list for PBXNativeTarget "Haiku_Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22238B92CBC9304001E137C /* Debug */,
+				E22238BA2CBC9304001E137C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22238BB2CBC9304001E137C /* Build configuration list for PBXNativeTarget "Haiku_ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22238BC2CBC9304001E137C /* Debug */,
+				E22238BD2CBC9304001E137C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22238BE2CBC9304001E137C /* Build configuration list for PBXNativeTarget "Haiku_ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22238BF2CBC9304001E137C /* Debug */,
+				E22238C02CBC9304001E137C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E222388C2CBC9303001E137C /* Project object */;
+}
